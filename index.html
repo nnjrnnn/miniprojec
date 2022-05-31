@@ -1,0 +1,241 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>แผนที่มาตราการควบคุมพื้นที่เสี่ยง</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  </head>
+  <body>
+    <div class="header">
+      <a href="#default" class="logo">PREVENTIVE MEASURES OF COVID-19</a>
+      </div>
+  </div>
+  <div class="topnav">
+    <div class="topnav-right">
+      <a href="index.html" target="_blank">ไปยังหน้าแรก</a>
+      <a href="P1/phase1.html" target="_blank">Phase1</a>
+      <a href="P2/phase2.html">Phase2</a>
+      <a href="P3/phase3.html">Phase3</a>
+    </div>
+  </div>
+  <div style="padding-left:20px">
+    <h1>มาตราการควบคุมและป้องกัน Covid-19</h1>
+    <p>ความรุนแรงของการแพร่ระบาดของโรคโควิด 19 ในประเทศไทย ศูนย์บริหารสถานการณ์โควิดจึงมีการออกคำสั่งมาตรการการควบคุมและป้องกันโรคโควิด 19 มาเรื่อยๆ เพื่อป้องกันและลดการแพร่ระบาดของโรคโควิด 19 ในประเทศไทย แต่เนื่องด้วยสถานการณ์โควิด 19 ของแต่ละจังหวัดในประเทศไทยมีสถานการณ์ความรุนแรงของการแพร่ระบาดที่ต่างกัน มาตรการที่ออกมาจึงมีหลายฉบับ ใช้ตามความเหมาะสมของสถานการณ์แต่ละจังหวัดในประเทศไทย </p>
+  </div>
+  <hr>
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="image\1.png" style="width:100%">
+
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="image\2.png" style="width:100%">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+  </div>
+
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+<hr>
+<center><table border>
+<tr bgcolor='#DCDCDC'>
+  <th>พื้นที่/กิจการกิจกรรม</th>
+  <th>การจำกัดการเดินทาง</th>
+  <th>การจัดกิจกรรม</th>
+  <th>ร้านอาหาร</th>
+  <th>ศูนย์การค้าห้างสรรพสินค้า</th>
+  <th>ร้านเสริมสวย ร้านนวด สถานเสริมมความงาม</th>
+  <th>สถานศึกษาทุกระดับ สถาบันกวดวิชา</th>
+  <th>สถานที่แข่งกีฬาหรือแข่งขันกีฬา</th>
+  <th>สถานบริการ/สถานบันเทิง ผับ บาร์</th>
+</tr>
+<tr>
+  <td bgcolor='#CC0000'>พื้นที่ควบคุมสูงสุดและเข้มงวด</td>
+  <td>เลี่ยง จำกัด หรืองดเว้นการเดินทางออกนอกเคหสถานหรือที่พำนัก โดยไม่จำเป็น
+-ห้ามออกนอกเคหสถาน 21.00-04.00น.
+-งดให้บริการขนส่งข้ามเขตจังหวัด
+-การตั้งด่านสกัดระหว่างเขตจังหวัด
+ี่</td>
+  <td>ห้ามจัดกิจกรรมรวมคนมากกว่า 5 คน</td>
+  <td>ห้ามบริโภคภายในร้านขายได้แบบนำไปบริโภคที่อื่น เปิดได้ไม่เกิน 20.00น.(งดจำหน่ายและงดดื่มสุราในร้าน)</td>
+  <td>เปิดบริการได้เฉพาะ
+-ร้านอาหาร/เครื่องดื่ม โดยเฉพาะ Delivery Service -ร้านขายยา/เวชภัณฑ์
+-ซุปเปอร์มาร์เก็ต
+</td>
+  <td> ปิด</td>
+  <td>ห้ามใช้อาคารสถานที่ เพื่อจัดการเรียนการสอน กิจกรรมที่มีการรวมคนจำนวนมาก</td>
+  <td> ปิด</td>
+  <td> ปิด</td>
+</tr>
+<tr>
+  <td bgcolor='#FF0000'>พื้นที่ควบคุมสูงสุด</td>
+  <td>ตั้งจุดตรวจ ด่านตรวจ หรือจุดสกัดเพื่อตรวจคัดกรองการเดินทาง</td>
+  <td>ห้ามจัดกิจกรรมรวมคนมากกว่า 20 คน</td>
+  <td>บริโภคในร้านได้ เปิดไม่เกิน 23.00น. (งดจำหน่ายและงดดื่มสุราในร้าน)</td>
+  <td>เปิดบริการได้ตามเวลาปกติ (จำกัดจำนวนคน งดจัดกิจกรรมส่งเสริมการขาย)</td>
+  <td>เปิดบริการได้ตามปกติ แต่ไม่เกิน 23.00น.</td>
+  <td>ให้ใช้อาคารสถานที่ เพื่อจัดการเรียนการสอน กิจกรรมที่มีการรวมคนจำนวนมากโดยผ่านความเห็นชอบจาก คณะกรรมการโรคติดต่อจังหวัด</td>
+  <td>เปิดบริการได้ทุกประเภท ไม่เกิน 21.00 น. จัดการแข่งขันได้โดยจำำกัดผู้ชม</td>
+  <td>ปิด</td>
+</tr>
+<tr>
+  <td bgcolor='#FF6600'>พื้นที่ควบคุม</td>
+  <td>ไม่จำกัดการเดินทาง</td>
+  <td>ห้ามจัดกิจกรรมรวมคนมากกว่า 50 คน</td>
+  <td>บริโภคในร้านได้ ตามปกติ (งดจำหน่ายและงดดื่มสุราในร้าน)</td>
+  <td>เปิดบริการได้ตามเวลาปกติ (ปิดในส่วนเครื่องเกมส์ สวนสนุก)</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>ให้ใช้อาคารสถานที่ เพื่อจัดการเรียนการสอน ได้ตามปกติภายใต้มาตราการป้องกันโรคที่ราชการกำหนด</td>
+  <td>เปิดบริการได้ตามเวลาปกติ ทุกประเภท จัดการแข่งขันได้โดยจำกัดผู้ชม</td>
+  <td>ปิด</td>
+</tr>
+<tr>
+  <td bgcolor='#FFFF00'>พื้นที่เฝ้าระวังสูง</td>
+  <td>ไม่จำกัดการเดินทาง</td>
+  <td>ห้ามจัดกิจกรรมรวมคนมากกว่า 100 คน</td>
+  <td>บริโภคในร้านได้ ตามปกติ</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>ให้ใช้อาคารสถานที่ เพื่อจัดการเรียนการสอน กิจกรรมที่มีการรวมคนจำนวนมาก ตามมาตราการที่กำหนด</td>
+  <td>เปิดบริการได้ตามเวลาปกติ ทุกประเภท จัดการแข่งขันได้โดยจำกัดผู้ชม</td>
+  <td>สถานบริการ สถานบันเทิง ผับ บาร์ คาราโอเกะ ให้เปิดดำเนินการในรูปแบบร้านอาหารได้ตามมาตรการที่กำหนด โดยขออนุญาตจากคณะกรรมการโรคติดต่อจังหวัด</td>
+</tr>
+<tr>
+  <td bgcolor='#98FB98'>พื้นที่เฝ้าระวัง</td>
+  <td>ไม่จำกัดการเดินทาง</td>
+  <td>ห้ามจัดกิจกรรมรวมคนมากกว่า 150 คน</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>ให้ใช้อาคารสถานที่ เพื่อจัดการเรียนการสอน กิจกรรมที่มีการรวมคนจำนวนมาก ตามมาตราการที่กำหนด</td>
+  <td>เปิดบริการ และจัดการแข่งขันได้ทุกประเภท</td>
+  <td>สถานบริการ สถานบันเทิง ผับ บาร์ คาราโอเกะ ให้เปิดดำเนินการในรูปแบบร้านอาหารได้ตามมาตรการที่กำหนด โดยขออนุญาตจากคณะกรรมการโรคติดต่อจังหวัด</td>
+</tr>
+<tr>
+  <td bgcolor='#00BFFF'>พื้นที่นำร่องเที่ยว</td>
+  <td>ไม่จำกัดการเดินทาง</td>
+  <td>จัดกิจกรรม รวมคนตามความเหมาะสม</td>
+  <td>บริโภคในร้านได้ ตามปกติ</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>เปิดบริการได้ตามปกติ</td>
+  <td>ให้ใช้อาคารสถานที่ เพื่อจัดการเรียนการสอน กิจกรรมที่มีการรวมคนจำนวนมาก ตามมาตราการที่กำหนด</td>
+  <td>เปิดบริการ และจัดการแข่งขันได้ทุกประเภท</td>
+  <td>สถานบริการ สถานบันเทิง ผับ บาร์ คาราโอเกะ ให้เปิดดำเนินการในรูปแบบร้านอาหารได้ตามมาตรการที่กำหนด โดยขออนุญาตจากคณะกรรมการโรคติดต่อจังหวัด</td>
+</tr>
+</center>
+</table>
+<hr>
+<h2>แผนที่ระดับพื้นที่มาตราการควบคุมพื้นที่เสี่ยง ภาคตะวันออก</h2>
+<center>
+  <label><a href="phase1\phase1.html">Phase1⬆️</a></label>
+  <label><a href="phase2\phase2.html">Phase2⬆️</a></label>
+  <label><a href="phase3\phase3.html">Phase3⬆️</a></label>
+</center>
+<hr>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/v2_0TFmO6eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<hr>
+
+<table width=100% style="border:3px; cellpadding="5"><tr><td style="border:3px;" bgcolor=" #228B22">
+
+<center><div style="paddind-left:20px">
+<h1 align="left">Contact</h1>
+</div></center>
+
+<div class="chip">
+  <img src="https://e-library.nhso.go.th/assets/images/logo.png" alt="Person" width="96" height="96">
+     สำนักงานหลักประกันสุขภาพแห่งชาติ สายด่วน 1330
+</div>
+
+<div class="chip">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.png" alt="Person" width="96" height="96">
+     กรมควบคุมโรค โทร 1422
+</div>
+
+<div class="chip">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.png" alt="Person" width="96" height="96">
+     กรมการแพทย์ โทร 1668
+</div>
+
+<div class="chip">
+  <img src="https://www.niems.go.th/1/img/NIEMS-logo.png" alt="Person" width="96" height="96">
+     สถาบันการแพทย์ฉุกเฉิน โทร1669
+</div>
+
+<div class="chip">
+  <img src="https://med1.healthcare/assets/image/logo/ss-logo.png" alt="Person" width="96" height="96">
+     ประกันสังคม โทร 15062
+</div>
+
+
+<center><br/><style>
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 2px;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: #FFFFFF;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: #FFFFFF;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: #FFFFFF;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: #FFFFFF;
+  }
+</style>
+<a href= "https://www.facebook.com/470988516420706/posts/1347501445436071/" class= "fa fa-facebook"></a>
+<a href="https://twitter.com/pr_moph" class="fa fa-twitter"></a>
+<a href="https://ddc.moph.go.th" class="fa fa-google"></a>
+<a href="https://www.instagram.com/ddcthailand_official/" class="fa fa-instagram"></a>
+</body>
+</html>
